@@ -1,0 +1,17 @@
+{
+  "name": "1portfolio",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "Joshua Peters"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/jpeters280/portfolio",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "1portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpeters280/portfolio.git"
+  },
+  "author": "Joshua Peters",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpeters280/portfolio/issues"
+  },
+  "homepage": "https://github.com/jpeters280/portfolio#readme",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "google-auth-library": "^0.9.10",
+    "googleapis": "^15.0.0",
+    "instafeed.js": "^1.4.1",
+    "nodemailer": "latest",
+    "nodemailer-mailgun-transport": "latest",
+    "mongoose": "^4.6.1"
+  }
+}
