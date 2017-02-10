@@ -1,25 +1,23 @@
 var app = angular.module('app', ['ngRoute']);
-app.config(function ($routeProvider) {
-// Routes to load your new and edit pages with new and edit controllers attached to them!
+app.config(function ($routeProvider, $locationProvider) {
+
     $routeProvider
-    
+    // -----------------VIEWS
     .when('/', {
-        templateUrl: '/partials/index.html',
-        controller: 'indexController'
+        templateUrl: '/partials/views/index.html'
+        // reloadOnSearch: false,
+        // controller: 'mailNewController'
     })
-    .when('/friends/:id/edit', {
-        templateUrl: '/partials/edit.html',
-        controller: 'editController',
-    })
-    .when('/friends/new', {
-        templateUrl: '/partials/new.html',
-        controller: 'newController',
-    })
-    .when('/friends/:id', {
-        templateUrl: '/partials/show.html',
-        controller: 'showController',
-    })
+    // -----------------END VIEWS
     .otherwise({
         redirectTo: '/'
     });
+
+    // -----------------REMOVAL OF HASH IN ADDRESS FIELD
+    $locationProvider.html5Mode({
+        enabled: true,
+        requireBase: false,
+        rewriteLinks:true
+    });
+    // -----------------END REMOVAL OF HASH IN ADDRESS FIELD
 });

@@ -13,5 +13,18 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "bootstrap": "latest",
+    "jquery": "latest",
+    "wow": "^1.1.2",
+    "jquery.nicescroll": "^3.6.8",
+    "jquery.easing": "^1.3.1",
+    "imagesloaded": "^4.1.1",
+    "owl.carousel": "^2.2.0",
+    "font-awesome": "^4.7.0",
+    "titilliumWeb": "https://google-fonts.azurewebsites.net/googleFonts/titilliumWeb?family=Titillium+Web:400,300,300italic,400italic,600,700,600italic,200,200italic",
+    "play": "https://google-fonts.azurewebsites.net/googleFonts/play?family=Play:400,700",
+    "mixitup": "bower-mixitup#^2.0.4"
+  }
 }
