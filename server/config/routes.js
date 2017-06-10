@@ -1,8 +1,11 @@
 // var friendsController = require('../controllers/friends.js')
-
+var mailsController = require('../controllers/mails.js')
 console.log("future routes loading");
 
 module.exports = function(app){
+
+	app.post("/mails", mailsController.create); // create a new message
+
 	// app.get("/friends", friendsController.index); // show all friends
 	// app.get("/friends/:id", friendsController.show); // show one friend
 	// app.post("/friends", friendsController.create); // create a new friend

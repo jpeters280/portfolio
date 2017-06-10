@@ -1,9 +1,14 @@
-app.controller('mailNewController', ['$scope','mailFactory', '$location', function($scope, mailFactory, $location) {
+app.controller('mailNewController', ['$scope','mailsFactory', '$location', function($scope, mailsFactory, $location) {
 
     $scope.create = function(){
-        contactsFactory.createContact($scope.contact, function(){
-            alert('your message has been sent');
-            $location.url("/");
+        mailsFactory.createMail($scope.contact, function(data){
+            if (data.success) {
+            	$location.url("/formsubmitted");
+            	
+            }
+            else{
+            	alert('Oops! Form not submitted!');	
+            }
         });
     }
 }]);

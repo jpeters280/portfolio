@@ -487,7 +487,9 @@ scroll {  0% {
 
 
 /*============== Service style ==============*/
-
+.service_area{
+  background-color: #e9ebee;
+}
 .single_service{  
   margin-top: 100px;
   margin-bottom: 100px;
@@ -507,17 +509,18 @@ scroll {  0% {
   font-size: 30px;
   color: #f32b1a;
   line-height: 76px;
-  background: rgba(195, 185, 185, 0.21);
+  background: #F3F1F1;
   width: 80px;
   height: 80px;
   text-align: center;
-  border: solid 4px #fff;
+  border: solid 4px #f32b1a;
   outline: 1px solid #dddddd;
   }
 
   .single_service:hover .ico{
   color:#F3F1F1;
-  background: #f32b1a;  
+  background: #f32b1a; 
+  border: solid 4px #F3F1F1; 
   cursor:pointer;
   -webkit-transition:  ease-out .5s;
   -moz-transition:  ease-out .5s;
@@ -546,9 +549,7 @@ scroll {  0% {
 
 /* ===========work style===========*/
 
-.work_area{
-    background-color: #f8f8f8;
-}
+
 
 
 .work_section{
@@ -574,6 +575,10 @@ scroll {  0% {
   font-size: 50px;
   width: 80px;
   text-align: center;
+}
+.pretty_photo img{
+  max-width: 100%;
+  height:auto;
 }
 
 @media only screen and (min-width : 765px) {
@@ -640,8 +645,8 @@ scroll {  0% {
 /* ===========Portfolio style===========*/
 
 .portfolio_area{
-  margin-top: 40px;
-  margin-bottom: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .portfolio_section{
@@ -657,11 +662,6 @@ scroll {  0% {
 .portfolio_top{
 
 }
-
-/*.portfolio{
-
-}*/
-
 
 
 #info {
@@ -823,7 +823,7 @@ scroll {  0% {
 /*============== Skill style ==============*/
 
 .skill_area{
-  background-color: #f8f8f8;
+  background-color: #e9ebee;
 }
 
 
@@ -1124,8 +1124,9 @@ color: #282a2e;
 /*============== testimonial style ==============*/
 
 .testimonial_area{
-  margin-bottom: 60px;
-  margin-top: 60px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  background-color: #e9ebee
 }
 
 .testimonial_section h1{
@@ -1157,26 +1158,24 @@ color: #282a2e;
   font-weight: 600;
 }
 
-.contact_form{
 
-}
 
-#contact_form{ 
+.contactForm{ 
     margin-top: 50px; 
-    margin-bottom: 30px;  
+    margin-bottom: 100px;  
 }
 
-#contact_form legend{
+.contactForm legend{
     font-size: 15px; 
     color: #C9C9C9;
 }
 
-#contact_form label{
+.contactForm label{
     margin-bottom:28px;
     display: block;
  }
 
-#contact_form label span{
+.contactForm label span{
     float:left;
      width:100px; 
      color:#666666;
@@ -1184,14 +1183,14 @@ color: #282a2e;
 
 
 
-#contact_form input{
+.contactForm input{
   width: 100%;
   height: 40px;
   border: 1px solid #DBDBDB;
   padding-left: 4px;
  }
 
-#contact_form textarea{
+.contactForm textarea{
   width: 100%;
   height:100px; 
   padding-left: 4px;
@@ -1288,3 +1287,9 @@ color: #282a2e;
   text-align: center;
 }
 
+/*============== HONEYPOT ==============*/
+.contactForm > label[for="address"],
+.contactForm > input[name="address"] { 
+  display: none; 
+}
+/*============== END HONEYPOT ==============*/

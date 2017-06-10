@@ -36,11 +36,11 @@
     <script src="app.js"></script>
 
     <!-- FACTORIES -->
-    <!-- <script src="assets/factories/contactFactory.js"></script> -->
+    <script src="assets/factories/mailsFactory.js"></script>
     <!-- END FACTORIES -->
 
     <!-- CONTROLLERS -->
-    <!-- <script src="assets/controllers/mail/newController.js"></script> -->
+    <script src="assets/controllers/mail/newController.js"></script>
     <!-- END CONTROLLERS -->
 
 
@@ -71,16 +71,15 @@
     </div> 
     <header class="main_header">
   <div class="row">
-    <div class="content"> <a class="logo" href="#">Joshua Peters</a>
+    <div class="content">  <p class="logo">Joshua Peters</p>
       <div class="mobile-toggle"> <span></span> <span></span> <span></span></div>
       <nav>
         <ul class="main_menu">
           <li><a ng-href=".hero" target="_parent">Home</a></li>
-          <li><a href=".service_area">Service</a></li>
+          <li><a href=".service_area">Services</a></li>
           <li><a href=".portfolio_area">Portfolio</a></li>
-          <li><a href=".blog_area">Blog</a></li>
-          <!-- <li><a href=".price_area">Price</a></li> -->
-          <li><a href=".testimonial_area">Testimonial</a></li>
+          <li><a href=".skill_area">About Me</a></li>
+          <li><a href=".testimonial_area">Testimonials</a></li>
           <li><a href=".contact_area">Contact</a></li>                    
         </ul>
       </nav>
@@ -138,8 +137,6 @@
             <div class="single_service">        
               <div class="ico"><i class="fa fa-tv"></i></div>
               <h2>Front End</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore</p>
             </div>
           </div>
 
@@ -147,8 +144,6 @@
             <div class="single_service">        
               <div class="ico"><i class="fa fa-database"></i></div>          
               <h2>Back End</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore</p>
             </div>
           </div>
 
@@ -156,8 +151,6 @@
             <div class="single_service">        
               <div class="ico"><i class="fa fa-rocket"></i></div>         
               <h2>Deployment</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore</p>
             </div>
           </div>
 
@@ -165,8 +158,6 @@
             <div class="single_service">        
               <div class="ico"><i class="fa fa-bullseye"></i></div>        
               <h2>Full Stack</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore</p>
             </div>
           </div>
 
@@ -175,48 +166,7 @@
   </div>
 </div><!-- service area end   -->
 
-<div class="work_area">
-  <div class="container">
-    <div class="row">  
-      <div class="work_section">
-        <h1 class="wow bounceInLeft">Functional <span>work Process</span></h1>
-          <div class="col-md-12 wow bounceInRight animated">
-            <div class="bs-example">
-              <ul class="nav nav-tabs">
-                  <li class="active"><a data-toggle="tab" href="#sectionA"><i class="fa fa-lightbulb-o"></i></a></li>
-                  <li><a data-toggle="tab" href="#sectionB"><i class="fa fa-compass"></i></a></li>
-                  <li><a data-toggle="tab" href="#sectionC"><i class="fa fa-cogs"></i></a></li>
-                  <li><a data-toggle="tab" href="#sectionD"><i class="fa fa-paper-plane"></i></a></li>
-                  <li><a data-toggle="tab" href="#sectionE"><i class="fa fa-line-chart"></i></a></li>
-              </ul>
-              <div class="tab-content">
-                  <div id="sectionA" class="tab-pane fade in active">
-                      <h3>Strategy</h3>
-                      <p>Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui. Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth.</p>
-                  </div>
-                  <div id="sectionB" class="tab-pane fade">
-                      <h3>Plan</h3>
-                      <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
-                  </div>
-                  <div id="sectionC" class="tab-pane fade">
-                      <h3>Mechanism</h3>
-                      <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
-                  </div>
-                  <div id="sectionD" class="tab-pane fade">
-                      <h3>Title</h3>
-                      <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
-                  </div>
-                  <div id="sectionE" class="tab-pane fade">
-                      <h3>Workflow</h3>
-                      <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
-                  </div>                                                
-              </div>
-            </div>
-          </div>
-      </div>
-    </div>  
-  </div>    
-</div><!-- work area end   -->
+
 
 
 <div class="portfolio_area">
@@ -224,7 +174,7 @@
       <div class="portfolio_section">
           <div class="col-md-12 portfolio_top">
               <h1>Portfolio</h1>
-              <p>OUR TEAM INCLUDES GREAT THINKERS. YOU WOULD LOVE TO WORK WITH THEM AS THEY ARE JUST AMAZING PEOPLE.</p>
+              <p>Here are a few of my projects.</p>
           </div>  
       </div>
 
@@ -239,33 +189,33 @@
 
     <div id="portfoliolist">
       
-      <div class="portfolio mix logos text-center">
-        <div class="portfolio-wrapper">       
-          <img src="./styling/img/portfolios/logo/5.jpg" alt="" />
+      <div class="portfolio mix web text-center">
+        <a href="http://www.highlandmontessori.com/" target="_blank"><div class="portfolio-wrapper">       
+          <img src="./styling/img/highland.png" alt="" />
           <div class="label">
             <div class="label-text">
-              <a class="text-title">Bird Document</a>
-              <span class="text-category">Logo</span>
-            </div>
+              <a class="text-title">Highland Montessori</a>
+              <span class="text-category">Web</span>
+            </div></a>
             <div class="label-bg"></div>
           </div>
         </div>
       </div>        
 
-      <div class="portfolio mix app">
+      <div class="portfolio mix web">
         <div class="portfolio-wrapper">     
-          <img src="./styling/img/portfolios/app/1.jpg" alt="" />
+          <img src="./styling/img/mountainview.png" alt=""/>
           <div class="label">
             <div class="label-text">
-              <a class="text-title">Visual Infography</a>
-              <span class="text-category">APP</span>
+              <a class="text-title">Mountain View DWC Rewrite</a>
+              <span class="text-category">Web</span>
             </div>
             <div class="label-bg"></div>
           </div>
         </div>
       </div>    
       
-      <div class="portfolio mix web">
+      <!--<div class="portfolio mix web">
         <div class="portfolio-wrapper">           
           <img src="./styling/img/portfolios/web/4.jpg" alt="" />
           <div class="label">
@@ -549,7 +499,7 @@
             <div class="label-bg"></div>
           </div>
         </div>
-      </div>        
+      </div> -->        
                     
       
     </div>
@@ -650,8 +600,59 @@
   </div>
 </div><!-- skill area end-->
 
+<div class="work_area">
+  <div class="container">
+    <div class="row">  
+      <div class="work_section">
+        <h1 class="wow bounceInLeft">A little bit about <span>me</span></h1>
+          <div class=" pretty_photo col-md-6 wow bounceInRight animated">
+            <!-- <div class="bs-example">
+              <ul class="nav nav-tabs">
+                  <li class="active"><a data-toggle="tab" href="#sectionA"><i class="fa fa-lightbulb-o"></i></a></li>
+                  <li><a data-toggle="tab" href="#sectionB"><i class="fa fa-compass"></i></a></li>
+                  <li><a data-toggle="tab" href="#sectionC"><i class="fa fa-cogs"></i></a></li>
+                  <li><a data-toggle="tab" href="#sectionD"><i class="fa fa-paper-plane"></i></a></li>
+                  <li><a data-toggle="tab" href="#sectionE"><i class="fa fa-line-chart"></i></a></li>
+              </ul>
+              <div class="tab-content">
+                  <div id="sectionA" class="tab-pane fade in active">
+                      <h3>Strategy</h3>
+                      <p>Goal driven design focusing on continuous improvement using small steps for measured results.</p>
+                  </div>
+                  <div id="sectionB" class="tab-pane fade">
+                      <h3>Plan</h3>
+                      <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
+                  </div>
+                  <div id="sectionC" class="tab-pane fade">
+                      <h3>Mechanism</h3>
+                      <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
+                  </div>
+                  <div id="sectionD" class="tab-pane fade">
+                      <h3>Title</h3>
+                      <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
+                  </div>
+                  <div id="sectionE" class="tab-pane fade">
+                      <h3>Workflow</h3>
+                      <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
+                  </div>                                                
+              </div>
+            </div>
+          </div> -->
 
-<div class="testimonial_area">
+          <img src="./styling/img/me.jpg">
+
+      </div>
+      <div class="col-md-6 wow bounceInLeft animated">
+      <p>A web developer based in San Bruno, CA. I specialize in creating beautiful and intuitive user experiences using the latest design technology.</p>
+      <p>I have over a year of full-stack web experience ranging from static websites to workflow dashboards for local businesses. I've helped many "mobile ready" their existing pages.</p>
+      <p>If you'd like to know more please feel free to contact me. I'd love to hear from you.</p>
+      </div>
+    </div>  
+  </div>    
+</div><!-- work area end   -->
+
+
+<!-- <div class="testimonial_area">
   <div class="container">
     <div class="row">
       <div class="testimonial_section">
@@ -707,61 +708,9 @@
       </div>
     </div>
   </div>
-</div><!-- testimonial area end   -->
+</div>testimonial area end   --> 
 
-<div class="contact_area">
-  <div class="container">
-    <div class="row">
-      <div class="contact_section">
-          <h1>Contact Me</h1>
-          <p>I'd love to get in touch with you</p>
-
-                    <div class="col-md-6">
-                        <div class="contact_form">
-                        <fieldset id="contact_form">
-                            <div id="result"></div>
-                                <label for="name">
-                                <input type="text" name="name" id="name" placeholder="Enter Your Name" />
-                                </label>
-                                
-                                <label for="email">
-                                <input type="email" name="email" id="email" placeholder="Enter Your Email" />
-                                </label>
-                                
-                                <label for="phone">
-                                <input type="text" name="phone" id="phone" placeholder="Phone Number" />
-                                </label>
-                                
-                                <label for="message">
-                                <textarea name="message" id="message" placeholder="Enter Your Name"></textarea>
-                                </label>
-                                <button class="submit_btn" id="submit_btn">Submit</button>
-                                </label>
-                        </fieldset>                           
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="contact_text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
-                            <h3>contact info</h3>
-                            <ul class="contact_info">
-                                <li><span class="glyphicon glyphicon-envelope"></span> &nbsp; jpeters280@gmail.com</li>
-                                <li><span class="glyphicon glyphicon-home"></span> &nbsp; San Bruno,California</li>
-                                <li><span class="glyphicon glyphicon-phone"></span> 1-650-291-5651</li>
-                            </ul>
-                            <ul class="contact_social">
-                                <a href="#"><li><i class="fa fa-github-square"></i></li></a>
-                                <a href="#"><li><i class="fa fa-linkedin-square"></i></li></a>
-                                <a href="#"><li><i class="fa fa-share-square"></i></li></a>
-                            </ul>                            
-                        </div>
-                    </div>
-      </div>
-    </div>
-  </div> 
-</div><!-- contact area end   -->
+<div ng-view></div>
 
     <!-- PLACED FOR SPEED -->
     <script type="text/javascript" src="jquery/dist/jquery.min.js"></script>

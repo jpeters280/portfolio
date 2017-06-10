@@ -4,9 +4,11 @@ app.config(function ($routeProvider, $locationProvider) {
     $routeProvider
     // -----------------VIEWS
     .when('/', {
-        templateUrl: '/partials/views/index.html'
-        // reloadOnSearch: false,
-        // controller: 'mailNewController'
+        templateUrl: '/partials/views/contact.html',
+        controller: 'mailNewController'
+    })
+    .when('/formsubmitted', {
+        templateUrl: '/partials/views/formsubmitted.html'
     })
     // -----------------END VIEWS
     .otherwise({
